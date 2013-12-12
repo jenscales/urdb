@@ -16,4 +16,7 @@ class Movie < ActiveRecord::Base
     rotten_finder.ratings.audience_score
   end
 
+  def self.average_rating
+  end
+
 end
